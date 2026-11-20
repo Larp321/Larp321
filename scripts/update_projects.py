@@ -12,7 +12,7 @@ import os
 import re
 import sys
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime
 
 OWNER = os.environ.get("PROFILE_OWNER", "Larp321")
 README = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "README.md")
@@ -53,8 +53,7 @@ def render(repos):
             links.append(f"[live demo]({demo_link(r)})")
         updated = datetime.strptime(r["pushed_at"], "%Y-%m-%dT%H:%M:%SZ").strftime("%b %Y")
         rows.append(f"| **[{r['name']}]({r['html_url']})** | {desc} | {lang} | {' · '.join(links)}<br><sub>updated {updated}</sub> |")
-    stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    return "\n".join(rows) + f"\n\n<sub>This list updates itself every day from my public repositories (last run {stamp}).</sub>"
+    return "\n".join(rows) + "\n\n<sub>This list updates itself daily from my public repositories.</sub>"
 
 
 def main():

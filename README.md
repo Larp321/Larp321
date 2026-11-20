@@ -22,8 +22,8 @@ layers, backpropagation, the Adam optimizer, dropout and L2, all checked with nu
 
 ### Skills
 
-**Machine learning:** neural networks, CNNs, backpropagation, optimizers, regularization, data augmentation, error analysis
-**Languages and tools:** Python, NumPy, JavaScript, HTML/CSS, Git, GitHub Actions, GitHub Pages, Kaggle
+- **Machine learning:** neural networks, CNNs, backpropagation, optimizers, regularization, data augmentation, error analysis
+- **Languages and tools:** Python, NumPy, JavaScript, HTML/CSS, Git, GitHub Actions, GitHub Pages, Kaggle
 
 ### All projects
 
@@ -32,5 +32,5 @@ layers, backpropagation, the Adam optimizer, dropout and L2, all checked with nu
 |---|---|---|---|
 | **[neural-network-from-scratch](https://github.com/Larp321/neural-network-from-scratch)** | A neural network library written from scratch in NumPy: backprop, Adam, dropout, gradient checking - 98.27% on MNIST | Python | [code](https://github.com/Larp321/neural-network-from-scratch) · [live demo](https://larp321.github.io/neural-network-from-scratch/)<br><sub>updated Nov 2026</sub> |
 
-<sub>This list updates itself every day from my public repositories (last run 2026-11-20).</sub>
+<sub>This list updates itself daily from my public repositories.</sub>
 <!-- PROJECTS:END -->
